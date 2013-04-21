@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLClassDiagram1">
+  <logicalClassDesignerModelMoniker Id="178b1b1d-4819-404a-8646-ea6dcbe7814f" />
+  <nestedChildShapes>
+    <classShape Id="7ddc0e90-f015-4cfb-bbb6-0d5f96e4fb3a" absoluteBounds="1.75, 0.625, 1.5, 1.3479918644825619" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="9c54047f-ce18-4c0f-bd37-dc31d56c0cf1" LastKnownName="Program" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="a6bafa97-47f7-413b-8536-f4a258817265" absoluteBounds="1.7649999999999997, 1.1403356393178306, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="d5deb972-235e-441b-a908-081ff30a608b" absoluteBounds="1.7649999999999997, 1.3515075068672497, 1.4700000000000002, 0.521484357615312" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2a098710-97c5-491c-a2ff-42334705d0da" absoluteBounds="4.625, 0.5, 1.5, 2.8093980697790779" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="bd907c12-d030-47aa-845f-1e4e37897e07" LastKnownName="Attempt" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="7732fe13-359e-4514-aa80-3db45c9dc7c9" absoluteBounds="4.64, 1.0153356393178306, 1.4700000000000002, 1.9628905629118281" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="a9d2463a-13b8-4590-88c1-96ca7006e80d" absoluteBounds="4.64, 2.9882262022296584, 1.4700000000000002, 0.22117186754941942" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

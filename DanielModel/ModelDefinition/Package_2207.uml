@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f7d1ccab-0efd-4242-9a24-09aa3d0f2576"
+  name="Daniel"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d8a0ccd1-a631-4e2a-961f-46fde1bdea6f"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DDaniel"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="987cfd1c-5171-40cc-8c9c-eebbe037c8c6"
+        name="Program"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="55fbc693-bb62-4323-bde9-d5e62ba9c8f3"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fminievangion%2FDocuments%2FVisual Studio 2012%2FProjects%2FDaniel%2FDaniel%2Fbin%2FDebug%2FDaniel.exe&quot; Namespace%3DDaniel Type%3DProgram"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="818828b4-fa02-4b0d-a4f3-4fa68eccce35"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bb59cdfb-47b8-4982-86ba-17bac16867a7">
+                <propertyInstance
+                  Id="973753a6-c074-4533-8e6a-7b7261f92c2f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0e03ee43-1cd7-43fb-a533-bb00713d7ae2">
+                <propertyInstance
+                  Id="1e29875e-f0a3-4c86-bce8-ab6fffe1173c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9a405f67-4f0d-41b5-9e9f-b0f3d5da39e4">
+                <propertyInstance
+                  Id="74b1ff6c-95ee-4b13-9040-057b8733327e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="14bde2f0-80e0-4851-a97c-17e676c1a4e1">
+                <propertyInstance
+                  Id="a031cc57-95f4-4c5d-a8ef-d19f543ecc18"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="61a35b9f-494f-4f84-b4b9-3187abeca4bf">
+                <propertyInstance
+                  Id="d4598ae8-2414-4bac-8534-51997d2875e1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="be5dd2f6-216b-4073-8079-76e1433117ea"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8ec44a5f-c0b9-4ab7-a42d-9cdf541c3cde"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fminievangion%2FDocuments%2FVisual Studio 2012%2FProjects%2FDaniel%2FDaniel%2Fbin%2FDebug%2FDaniel.exe&quot; Namespace%3DDaniel Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6c4a74bb-9a0a-4343-8aaa-c16e553b16c5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c0138f2-4e71-4d4b-a259-7cf081bece40">
+                    <propertyInstance
+                      Id="02939174-d1c5-4335-a6cd-006c49c10dbc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb337c86-b8cc-4352-be4c-e7dcb19ec6f2">
+                    <propertyInstance
+                      Id="4843b8f7-e46f-49bc-bd16-e7dc4eae9701"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10d357dd-de48-43f0-8cf9-d23d17e14771">
+                    <propertyInstance
+                      Id="48bfaa78-0f24-4c7c-ab58-6c0efed06562"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="836fd357-52a9-4327-976a-310dfa1f70fa">
+                    <propertyInstance
+                      Id="16fd3c66-6caf-4337-9636-79a0dbf0d362"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1186440f-74b8-4037-9ffb-107441fd95b3">
+                    <propertyInstance
+                      Id="5781dcff-88b5-432b-b2a5-f6699809fd9f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ee24b27-d11b-4386-be86-2ecc66d31288">
+                    <propertyInstance
+                      Id="f18c78e8-23d1-4f49-808b-be9f113672e6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6f9254f8-5742-428f-8649-423f0bb088bf"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="bdcc9439-48e5-4c61-be8a-4fd6cbe891be"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fminievangion%2FDocuments%2FVisual Studio 2012%2FProjects%2FDaniel%2FDaniel%2Fbin%2FDebug%2FDaniel.exe&quot; Namespace%3DDaniel Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dargs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="1c1b5499-beaa-4058-b115-fccc6db25e43"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="09932a7c-9aa7-4f65-bd01-98d742dc88d6"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="DanielModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a367b372-eb37-43bb-a653-06ad51c5ac78"
+            name="Program"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a315df99-54a7-4716-ad81-45c70aa3de1f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fminievangion%2FDocuments%2FVisual Studio 2012%2FProjects%2FDaniel%2FDaniel%2Fbin%2FDebug%2FDaniel.exe&quot; Namespace%3DDaniel Type%3DProgram Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a8179ad2-88a7-44f1-98e3-6b8bc4e708d2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="603f8cb5-f105-46e9-94bf-bae9a1b9a7dd">
+                    <propertyInstance
+                      Id="cc5a2da1-e4ae-48c7-9908-8971cbae5491"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e534161f-8afd-44bf-a65f-d1e672fc3fb2">
+                    <propertyInstance
+                      Id="f1531c68-5593-4a54-83dc-201f30eb2003"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f28b905-77d6-4457-af0b-66033c690e86">
+                    <propertyInstance
+                      Id="88341604-baf3-4658-b8e2-9fdbe2b9fe1d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="356e2a35-d8c8-4e52-92be-d262c4462cd4">
+                    <propertyInstance
+                      Id="83399b7f-f746-48f6-adc1-f6644b8d72a0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c95258c1-dfc9-4a24-b5f8-8addf9acf67f">
+                    <propertyInstance
+                      Id="e280746b-6a40-4995-a04b-3c02f46b064c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="297af73f-1b65-4eeb-beb0-60427434b47e">
+                    <propertyInstance
+                      Id="89206b73-4496-4d91-a464-c4f543742fd3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
